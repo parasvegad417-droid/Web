@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styel.css">
+</head>
+<style>
+    .container {
+        background-color: red;
+        height: 100vh;
+        width: 100vw;
+        border: 1px solid black;
+        position: relative;
+
+    }
+
+    .box {
+        height: 50px;
+        width: 50px;
+        background-color: blue;
+        border-radius: 50%;
+        position: absolute;
+        bottom: 0px;
+        left: 10px;
+        animation: identifierX 2s linear infinite,identifierY 2s ease-out infinite alternate;
+    }
+
+    @keyframes identifierX {
+        from {
+            left: 0px;
+        }
+
+        to {
+            left: 100%;
+            ;
+        }
+    }
+
+    @keyframes identifierY {
+        from {
+            bottom: 0px;
+        }
+
+        to {
+            bottom: 50%;
+            ;
+        }
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="box">
+            box1
+        </div>
+    </div>
+</body>
+
+</html>

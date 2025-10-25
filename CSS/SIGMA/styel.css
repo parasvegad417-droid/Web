@@ -1,0 +1,18 @@
+/* nav ul li{
+    /* list-style: none;
+    list-style-position: inside; 
+    list-style: disc inside "";
+} */
+
+.box{
+    height: 20vh;
+    width: 50vw;
+     overflow: scroll;  /*// auto */
+     /* text-overflow: ellipsis;
+    white-space: nowrap; */
+    /* overflow-x:hidden;
+    overflow-y:hidden; */
+    overflow: hidden auto;
+
+
+}

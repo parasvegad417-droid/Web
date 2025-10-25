@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+
+h4 {
+    color: black;
+}
+
+div {
+    height: 700px;
+    width: full;
+    background-color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+}
+
+.chotu {
+    height: 300px;
+    width: 300px;
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(8, 8, 237);
+}
+
+.username {
+    height: 20px;
+    font-size: 17px;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid black;
+}
+
+.password {
+    height: 20px;
+    position: relative;
+    left: 0px;
+    outline: none;
+    font-size: 17px;
+    border: none;
+    border-bottom: 2px solid black;
+}
+
+button {
+    animation: suck 1s ease-in 1s infinite normal;
+    width: 230px;
+    height: 30x;
+}
+
+button:hover {
+    background-color: blue;
+    color: white;
+}

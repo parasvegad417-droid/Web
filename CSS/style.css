@@ -1,0 +1,157 @@
+ body{
+   margin: 0px;
+   padding: 0px;
+   font-size: 15px;
+ }
+ #One{
+    font-size: 25px;
+    color: #f08804;
+    padding-left: 10px;
+}
+button{
+    background-color: #f08804;
+    height: 25px;
+    border-radius: 10px;
+}
+a{
+    margin-right: 150px;
+    text-decoration: none;
+    color: white;
+    transition: all;
+    font-size: 20px;
+}
+a:hover{
+   border: 1px solid white;
+}
+a:active{
+   border: 1px solid none}
+#content{
+   display: flex;
+   justify-content: space-evenly;
+}
+.contentbox{
+    height: 150px;
+    width: 150px;
+    border:2px solid black;
+    border-radius: 5px;
+    display: grid;
+    place-items: center;
+
+
+}
+footer{
+   position:relative;
+   top: 1000px;
+    background-color:black;
+    color: white;
+    height: 200px;
+    width: full;
+    display: grid;
+    place-items: center;
+} 
+ #two{
+    height: 50px;
+    background-color: #0f1111;
+    }
+   #three{
+        font-size: center; 
+        height: 25px;
+        border-radius: 10px;
+   }
+/*     
+    #content{
+        height: 700px;
+    }
+    *{
+        background-image: -webkit-repeating-linear-gradient();
+    } 
+     #box1{
+        height: 100px;
+        width: 100px;
+        background-color: green;
+        font-size: 10px;
+     }
+     #box2{
+        height: 50px;
+        background-color: yellow;
+        width: 30%;
+        margin-left: 10; 
+          }     div{
+
+        height: 100px;
+        width: 100px;
+        display: inline-block;
+        border: 2px solid black;
+     }
+     #box1{
+        background-size: contain;
+        background-color: red;
+        background-image: url(me.jpeg);
+     }
+     #box2{
+        background-color: green;
+     }
+     #box3{
+        background-color: blue;;
+     }
+     #box4{
+        background-color: yellowgreen;
+     }
+     body{ 
+        background-size: cover;
+        background-image: url(me.jpeg);
+     }
+      div{
+        height: 100px;
+        width: 100px;
+        background-image: url(me.jpeg);
+        background-size: cover;
+        color:white;
+        position: sticky;
+        right: 0px;
+        top:50px;
+      }  
+       body{
+         text-align: center;
+         background-image:url(me.jpeg) ;
+       background-size: cover;
+      }      */ 
+            /* ps 6 */
+    /* .navbar{
+         background-color: black;
+         height: 70px;
+         width: full;
+
+      }
+      a{
+         text-decoration: none;
+         color: white;
+         font-size: 20px;
+         /* justify-content: space-evenly; 
+      }
+      ul{
+         display: flex;
+         justify-content: space-evenly;
+      }
+      li{
+         list-style-type: none;
+         justify-content: space-evenly;
+         align-items: center;
+         align-content: center;
+      } 
+
+       /* .outer{
+         height: 400px;
+         width: 400px;
+         background-color: chartreuse;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+      
+       }
+              .inner{
+         height: 100px;
+         width: 100px;
+         background-color: red;
+      
+       } */

@@ -1,0 +1,61 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+h4{
+    color: black;
+}
+div{
+     height:700px;
+     width: full;
+     background-color: white;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+}
+.chotu{
+    height: 600px;
+    width: 600px;
+    background-color: white;
+    text-align: center;
+    background-image: url(me.jpeg);
+    background-size: cover;
+}
+a{
+    text-decoration: none;
+    color: rgb(8, 8, 237);
+}
+.username{
+    height: 20px;
+    position: relative;
+    left: 0px;
+    border-radius: 5px;
+    font-size: 17px;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid black;
+}
+.password{
+    height: 20px;
+    position: relative;
+    left: 0px;
+    outline: none;
+    border-radius: 5px;
+    font-size: 17px;
+    border: none;
+     border-bottom: 2px solid black;
+}
+button{
+    animation: suck 1s ease-in 1s infinite normal;
+    width: 70px;
+    height: 50px;
+}
+button:hover{
+    background-color: red;
+    color: blue;
+}

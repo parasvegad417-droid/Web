@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .container {
+        display: grid;
+        height: 70vh;
+        width: 100vw;
+        border: 2px solid black;
+        grid-template-columns: [pehla] 100px [dosa] 120px [t];
+        grid-template-rows: 100px 120px 120px;
+        gap: 10px 10px;
+    }
+
+    .item {
+        border: 2px solid red;
+        width: 60px;
+        height: 60px;
+    }
+
+    .item-4 {
+        grid-row: 1/2;
+        grid-column: pehla/dosa;
+    }
+
+    .item-1 {
+        grid-row: 1/2;
+        grid-column: pehla/dosa; 
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="item item-1">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item item-4">4</div>
+        <div class="item">5</div>
+        <div class="item">6</div>
+    </div>
+</body>
+
+</html>

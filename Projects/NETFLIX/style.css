@@ -1,0 +1,93 @@
+*{
+    margin:0px;
+    padding:0px;    
+}
+body{
+    background-color: black;
+}
+header {
+    height: 100vh;
+    width: 100vw;
+   
+}
+.img-netflix{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+    width: 100vw;
+     background-image: url(paras.jpg);
+    background-size: cover;
+    background-position: center center;
+    opacity:0.5;
+}
+.img-netflix img{
+    width: 140px;
+    height: 60px;
+    /* position: relative;
+    top: 20px;
+    z-index: 10; */
+ }
+ button{
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 5px;
+    color:white;
+    position: relative;
+    top: 20px;
+    z-index: 12;
+}
+.btn1{
+    background-color: red;
+    margin: 10px;
+}
+.separation{
+    height: 7px;
+    width: 100vw;
+    background-color: rgb(108, 109, 110);
+}
+.para{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 90px;
+    padding: -20px;
+}
+
+.bigger{
+    color: white;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.medium{
+    color: white;
+    font-size:20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.small{
+     color: white;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 16px;
+}
+input{
+     display: block;
+     background-color: transparent;
+     width: 300px;
+     height: 30px;
+     margin: auto;
+     text-align: center;
+     border: 2px solid white;
+     border-radius: 5px;
+     color: white;
+ }
+
+
+ .box1{
+    height: 250px;
+    width: 100vw;
+
+
+}

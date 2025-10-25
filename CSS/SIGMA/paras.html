@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<style>
+    * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+
+    .nav {
+        width: 100vw;
+        height: 50px;
+        background-color: pink;
+        position: fixed;
+    }
+
+    ul {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    li {
+        list-style: none;
+    }
+
+    a {
+        color: white;
+        text-decoration: none;
+        line-height: 50px;
+
+    }
+    .boxes{
+        height: 100vh;
+        width: 100vw;
+        background-color: cornflowerblue;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .box1{
+        height:400px;
+        width: 400px;
+        border: 1px solid black;
+        border-radius: 6px;
+        background-color: green;
+        color: black;  
+        text-align: center;
+        line-height: 400px;  
+    }
+    .box2{
+        height:400px;
+        width: 400px;
+        border: 1px solid black;
+        border-radius: 6px;
+        background-color: red;
+        color: black; 
+        line-height: 400px; 
+        text-align: center;
+    }
+    .footer{
+        height: 30vh;
+        width: 100vw;
+        background-color: rgb(26, 26, 79);
+        color: white;
+        text-align: center;
+        line-height: 30vh;
+        margin-top: 10px;
+        position: sticky;
+
+    }
+</style>
+
+<body>
+    <div class="nav">
+        <nav>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href=""> contact</a></li>
+                <li><a href="">login here</a></li>
+                <li><a href="">good name</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="boxes">
+         <div class="box1">
+             box 1
+         </div>
+         <div class="box2">
+            box2
+         </div>
+    </div>
+
+    <div class="footer">
+        this is a footer ...
+    </div>
+</body>
+
+</html>
